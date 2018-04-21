@@ -1,7 +1,3 @@
-/++
-Usage : dmd app.d
-        ./app "any text"
-+/
 module libmorse;
 
 

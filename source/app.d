@@ -1,10 +1,7 @@
 import gtk.Builder;
 import gtk.Main;
-import gtk.Widget;
 import gtk.Window;
-import gtk.Button;
 import gtk.Entry;
-import gtk.TextView;
 
 import libmorse;
 
@@ -25,7 +22,7 @@ int main(string[] args) {
         e = cast(Entry) b.getObject("text_entry");
         t = cast(Entry) b.getObject("text_display");
         b.connectSignals(null);
-        w.addOnHide(delegate void(Widget aux) { Main.quit(); });
+        //w.addOnHide(delegate void(Widget aux) { Main.quit(); });
         w.showAll();
         Main.run();
         return 0;

@@ -14,3 +14,7 @@ gtkdd-test-*
 *.lst
 gtkdd
 dscanner.ini
+.vscode/settings.json
+.vscode/launch.json
+dub.selections.json
+dub_platform_probe-78ca8713-0b02-48f7-bf2f-55392949cd17.s
