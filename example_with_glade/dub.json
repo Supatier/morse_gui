@@ -1,0 +1,13 @@
+{
+	"name": "gtkdd",
+	"authors": [
+		"abc"
+	],
+	"description": "A minimal D application.",
+        "copyright": "Copyright © 2018, abc",
+        "dependencies": {
+                "gtk-d": "~>3.8.0"
+        },
+        "dflags": ["-Jres"],
+	"license": "proprietary"
+}
